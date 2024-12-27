@@ -107,7 +107,7 @@ const App = () => {
           showMessage ? "opacity-100 scale-100" : "opacity-0 scale-0"
         }`}
       >
-        <h1 className="christmas-title font-bold text-red-500 lg:text-[150px] md:text-[100px] text-5xl mb-4 sm:mb-8 animate-float shadow-text">
+        <h1 className="christmas-title lg:mt-32 font-bold text-red-500 lg:text-[120px] md:text-[100px] text-5xl mb-4 sm:mb-8 animate-float shadow-text">
           Bienvenue en 2025 !
         </h1>
         <h2 className="text-white"></h2>
@@ -133,29 +133,29 @@ const App = () => {
 
         <button onClick={handleButtonClick} className="px-8 py-3 mt-8 text-sm text-white rounded-md bg-red-500 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-600">Lire le message que j'ai pour toi</button>
           {showPopup && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-                    <div className="bg-white p-6 rounded shadow-lg h-screen overflow-auto py-8">
+                <div className="fixed inset-0 md:mt-80 lg:mt-80 flex max-w-6xl mx-auto items-center justify-center bg-black bg-opacity-20">
+                    <div className="bg-gradient-to-br from-pink-200 via-pink-500 to-pink-300 p-6 text-slate-800 font-bold rounded shadow-lg h-screen lg:h-[500px] overflow-auto py-8">
                         <div>
                           <h2 className="text-xl mb-4">Meilleurs Vœux pour la Nouvelle Année 2025</h2>
-                          <h2 className="text-lg font-bold mt-4">À mes collaborateurs :</h2>
+                          <h2 className="text-lg font-bold mt-4 underline">À mes collaborateurs :</h2>
                           <p>
-                              Votre dévouement et votre esprit d'équipe ont fait de notre travail une aventure enrichissante. J'espère que 2024 nous apportera encore plus de projets passionnants à réaliser ensemble.
+                              Votre dévouement et votre esprit d'équipe ont fait de notre travail une aventure enrichissante. J'espère que 2025 nous apportera encore plus de projets passionnants à réaliser ensemble.
                           </p>
                         </div>
                         <div>
-                          <h2 className="text-lg font-bold mt-4">À mes amis :</h2>
+                          <h2 className="text-lg font-bold mt-4 underline">À mes amis :</h2>
                           <p>
                               Merci d'être toujours là, de partager des rires et des souvenirs inoubliables. Que cette année soit remplie de nouvelles aventures et de moments de bonheur partagés.
                           </p>
                         </div>
                         <div>
-                          <h2 className="text-lg font-bold mt-4">À ma famille :</h2>
+                          <h2 className="text-lg font-bold mt-4 underline">À ma famille :</h2>
                           <p>
                               Votre soutien inconditionnel est ma plus grande force. Que cette nouvelle année nous rapproche encore davantage et nous apporte amour et sérénité.
                           </p>
                         </div>
                         <div>
-                          <h2 className="text-lg font-bold mt-4">À mes frères et sœurs :</h2>
+                          <h2 className="text-lg font-bold mt-4 underline">À mes frères et sœurs :</h2>
                           <p>
                               Que 2025 soit une année de complicité et de rires, où nous continuerons à bâtir des souvenirs inoubliables ensemble.
                           </p>
